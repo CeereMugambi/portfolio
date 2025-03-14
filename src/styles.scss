@@ -184,12 +184,13 @@ body {
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
-    flex: 1; /* Allow logo to take necessary space */
   }
   
   #header .logo a {
-    color: #222222;
+    color: #34b7a7;
     text-decoration: none;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   }
   
   #header .logo img {
@@ -198,14 +199,14 @@ body {
   
   /* Ensure Navbar is centered */
   .navbar {
-    flex: 2; /* Takes more space */
+    flex: 2;
     display: flex;
     justify-content: center;
   }
   
   .navbar ul {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -227,7 +228,7 @@ body {
   
   /* Style Header Social Links */
   .header-social-links {
-    flex: 1; /* Allows it to stay at the end */
+    flex: 1; 
     display: flex;
     justify-content: flex-end;
     padding-right: 15px;
@@ -496,13 +497,16 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("assets/img/hero-bg.jpg") top right;
+    background: url("assets/img/background.png") top right;
     background-size: cover;
   }
   
   #hero .container {
     padding-top: 70px;
     position: relative;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
   }
   
   @media (max-width: 992px) {
