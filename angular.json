@@ -27,6 +27,8 @@
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "allowedCommonJsDependencies": ["aos"],
+
             "polyfills": [
               "zone.js"
             ],
