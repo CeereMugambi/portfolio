@@ -578,7 +578,7 @@ body {
   # Sections General
   --------------------------------------------------------------*/
   section {
-    padding: 60px 0;
+    padding: 50x 0;
   }
   
   .section-bg {
@@ -670,6 +670,84 @@ body {
   /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
+  // .about .content h3 {
+  //   font-weight: 700;
+  //   font-size: 26px;
+  //   color: #555555;
+  // }
+  
+  // .about .content ul {
+  //   list-style: none;
+  //   padding: 0;
+  // }
+  
+  // .about .content ul li {
+  //   padding-bottom: 10px;
+  // }
+  
+  // .about .content ul i {
+  //   font-size: 20px;
+  //   padding-right: 2px;
+  //   color: #34b7a7;
+  // }
+  
+  // .about .content p:last-child {
+  //   margin-bottom: 0;
+  // }
+  .about {
+    text-align: center;
+    background: #f9f9f9;
+    animation: fadeIn 2s ease-in-out;
+
+  }
+  
+  // .about .section-title {
+  //   position: absolute;
+  //   top: 0;
+  //   width: 100%;
+  //   text-align: center;
+  //   font-size: 14px;
+  //   color: #333;
+  //   padding: 20px 0;
+  //   animation: fadeIn 2s ease-in-out;
+  // }
+  
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .about .col-lg-4 {
+    flex: 1;
+    max-width: 350px;
+    animation: rotateIn 2s ease-in-out;
+  }
+  
+  .about .col-lg-4 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .about .col-lg-8 {
+    flex: 2;
+    text-align: left;
+    padding: 20px;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
   .about .content h3 {
     font-weight: 700;
     font-size: 26px;
@@ -694,6 +772,51 @@ body {
   .about .content p:last-child {
     margin-bottom: 0;
   }
+  
+  .about figure {
+    font-style: italic;
+    color: #777;
+    padding: 20px;
+    border-left: 4px solid #34b7a7;
+  }
+  
+  .about .blockquote-footer {
+    font-weight: bold;
+    color: #34b7a7;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes rotateIn {
+    from {
+      opacity: 0;
+      transform: rotateY(90deg);
+    }
+    to {
+      opacity: 1;
+      transform: rotateY(0deg);
+    }
+  }
+  
   
   /*--------------------------------------------------------------
   # Skills
