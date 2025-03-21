@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-facts',
-  templateUrl: './facts.component.html',
-  styleUrl: './facts.component.scss'
+    selector: 'app-facts',
+    templateUrl: './facts.component.html',
+    styleUrl: './facts.component.scss',
+    standalone: false
 })
 export class FactsComponent implements OnInit {
 //this is a variable that hold number 
