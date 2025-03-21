@@ -10,7 +10,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { AboutComponent } from './components/about/about.component';
 import { AboutMeComponent } from './components/about/about-me/about-me.component';
 import { FactsComponent } from './components/about/facts/facts.component';
@@ -35,7 +34,6 @@ import { SkillsComponent } from './components/about/skills/skills.component';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    FlexLayoutModule,
 
   ],
   exports:[
